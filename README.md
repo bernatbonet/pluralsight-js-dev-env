@@ -1,12 +1,12 @@
 # pluralsight-js-dev-env
 
 1.Testing frameworks:
-[*] Mocha (*)
-[*] Jasmine
-[*] Tape
-[*] QUnit
-[*] AVA
-[*] Jest
+- [X] Mocha
+- [ ] Jasmine
+- [ ] Tape
+- [ ] QUnit
+- [ ] AVA
+- [ ] Jest
 
 2.Assertion Library:
 Def: Is a way to declare what expect to happen: 
