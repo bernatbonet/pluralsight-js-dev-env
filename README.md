@@ -8,14 +8,13 @@
 - [ ] AVA
 - [ ] Jest
 
-2.Assertion Library:
-Def: Is a way to declare what expect to happen: 
+2.Assertion Library: is a way to declare what expect to happen: 
   expect(2+2).to.equal(4)
   assert(2+2).equals(4)
 
-[*] Chai (*)
-[*] Should
-[*] Expect
+- [X] Chai
+- [ ] Should
+- [ ] Expect
 
 3.Helper Library:
 [*] JsDOM: simulate browser's DOM (*)
