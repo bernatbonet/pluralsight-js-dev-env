@@ -3,7 +3,7 @@ import path from 'path';
 export default {
   debug: true,
   devtool: 'inline-source-map',
-  noInfo: false,
+  noInfo: false, // list all the files bundling
   entry: [
     path.resolve(__dirname, 'src/index')
   ],
