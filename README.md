@@ -9,10 +9,7 @@
 - [ ] Jest
 
 2.Assertion Library: is a way to declare what expect to happen: 
-<<<<<<< HEAD
 ```jsx 
-=======
->>>>>>> 65df4679fdbdbc5ab34e22ac73e1e5de21304fe8
   expect(2+2).to.equal(4)
   assert(2+2).equals(4)
 ```
