@@ -63,10 +63,29 @@
 - XMLHttpRequest
 - jQuery
 - Framework-based
-- Fetch
+- Fetch (*)
 
 - [ ] Node & Browser
 - isomorphic-fetch
 - xhr
 - SuperAgent
 - Axios (*)
+
+Mock HTTP
+- Static JSON (mock-api)
+- JSON Server
+- JSON Server + JSON Schema Faker
+- Browsersync, Express
+
+1) Declare our schema
+- JSON Schema Faker: http://json-schema.org
+
+2) Generate Random Data
+- faker.js: github.com/Marak/faker.js/wiki marak.guthub.io/faker.js/index.html
+- chance.js
+- randexp.js
+
+3) Server Data via API
+- JSON Server
+
+
