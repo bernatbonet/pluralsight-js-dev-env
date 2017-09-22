@@ -89,3 +89,91 @@ Mock HTTP
 - JSON Server
 
 
+# Project Structure Tips
+- Directory structure and file naming
+- Framework usage
+- Testing
+- Mock API
+- Automated deployment
+
+Codifes decisions
+Interactive example of working with starter
+
+# Tips
+- Put JS in a .js file
+- Consider organizing by feature
+- Extract logic into "POJOs" (Plain Old Javascript Objects)
+
+# Production Build
+- Minification
+- Sourcemaps (debugging)
+- Dynamic HTML
+- Cache busting
+- Bundle splitting
+- Error logging
+
+# Minification
+Speed page loads
+- Shortens variable and function names
+- Removes comments
+- Removes whitespaces and new lines
+- Dead code elimination / Tree-shaking
+- Debug via sourcemap
+
+# HTML Dynamic:
+- Hard code
+- Manipulate via Node
+- html-webpack-plugin
+
+# Bundle/Code Splitting:
+- Speed initial page load
+- Avoid re-downloading all libraries
+
+# Cache Busting
+- Save HTTP Requests: can avoid download files until 1 year.
+. Hash bundle filename
+. Generate HTML dynamically
+
+# Error Logging
+- TrackJS (*)
+- Sentry
+- New Relic
+- Raygun
+
+# Error Metadata
+- Browser
+- Stack trace
+- Previous actions
+- Custom API for enhanced tracking
+
+# Concerns due error
+- Notifications & integrations
+- Analytic and filtering
+- Pricing
+
+# Production Deployment
+- Separating the UI from the API
+- Hosting providers
+- Automated deployment
+- Handling starter kit updates
+- Inspiration
+- Challenge
+
+# Separating the UI from the API
+- Simple, low-risk, UI only deploys
+- Separate concerns
+  - Separate teams
+  - Less to understand
+  - Scale back-end separately
+- Cheap UI hosting
+- Serve UI via a content delivery network
+- Use the API tech you like
+
+# Automated Deployment
+- Amazon web services
+- Microsoft azure
+- Heroku (Host API)
+- Firebase
+- Google cloud platform
+- Static files only (github, ... Host UI)
+
