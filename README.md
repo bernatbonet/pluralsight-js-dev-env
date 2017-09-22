@@ -35,13 +35,13 @@
 # 6.When should tests run:
 - [X] On save (unit test): show red or green
 
-Unit Test:
+. Unit Test:
 - [ ] Test a small unit
 - [ ] Often single funcion
 - [ ] Fast
 - [ ] Run on save
 
-Integration Tests:
+. Integration Tests:
 - [ ] Test multiple files
 - [ ] Often includes clicking & waiting
 - [ ] Slow
@@ -55,4 +55,18 @@ Integration Tests:
 - [ ] Semaphore
 - [ ] SnapCI
 
-HTTP Calls:
+# HTTP Calls:
+- [ ] Node: 
+- http, request
+
+- [ ] Browser:
+- XMLHttpRequest
+- jQuery
+- Framework-based
+- Fetch
+
+- [ ] Node & Browser
+- isomorphic-fetch
+- xhr
+- SuperAgent
+- Axios (*)
