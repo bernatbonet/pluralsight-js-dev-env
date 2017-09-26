@@ -177,3 +177,28 @@ Speed page loads
 - Google cloud platform
 - Static files only (github, ... Host UI)
 
+# Production Deploy
+- Yeoman
+- GitHub
+- NPM
+
+# Others
+- React
+  - andrewhfarmer.com/starter-project/
+- Angular
+  - github.com/gianarb/awesome-angularjs
+
+# Search:
+- Framework +
+  - Development environment
+  - Boilerplate
+  - Starter kit
+  - Starter project
+  - Seed
+
+# Final challange
+  - Send meetinf invite to your team.
+    - Would we benefit for a starter kit ?
+    - What are our JS pain points ?
+    - Would we benefit for a demo app ?
+  
