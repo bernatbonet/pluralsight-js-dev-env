@@ -177,3 +177,7 @@ Speed page loads
 - Google cloud platform
 - Static files only (github, ... Host UI)
 
+# Production Deploy
+- Yeoman
+- GitHub
+- NPM
